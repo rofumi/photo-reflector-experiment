@@ -92,13 +92,13 @@ VSCのインストールやPlatformIO、マイコンボードの設定などを�
 
 回路図、写真を参考にブレッドボードに回路を組みます。
 
-この回路は、USBでPCと接続されたM5ATOMS3 Liteから電源を供給して動作します。
-
-＜図、回路図のリンク＞
+この回路はUSBでPCと接続されたM5ATOMS3 Liteから電源を供給して動作します。
 
 ジャンパ線で回路図、画像を参考に配線してみてください。
 
 AtomS3 liteの接続はジャンパ線を直接端子の穴に挿す。もしくはピンヘッダを使い、ブレッドボードに写真のように取り付けても良いです。
+
+・[回路図（フォトリフレクタ実験）](/schematic/reflective_sensor_circuit.pdf)
 
 ・ジャンパ線でAtomS3 Liteを配線したイメージ
 ![test_circuit_w_jumper](/image/test_circuit_image_01.jpg)
@@ -106,6 +106,7 @@ AtomS3 liteの接続はジャンパ線を直接端子の穴に挿す。もしく
 ・ピンヘッダでAtomS3 Liteを配線したイメージ
 ![test_circuit_w_pinheader_0](/image/test_circuit_image_02.jpg)
 ![test_circuit_w_pinheader_1](/image/test_circuit_image_03.jpg)
+
 
 ### 4.実験のプログラムについて
 実験は次のようにカテゴリーを分けています。プログラムのファイル名とカテゴリの対応を確認ください。
@@ -255,6 +256,8 @@ ATOMS3 Lite内のLEDは、FastLEDというライブラリを使い点灯させ�
 プログラムはapplication_2.inoを使います。
 
 回路にはサーボモータを追加します。回路図、以下の画像を参考してください。
+
+・[回路図（フォトリフレクタ実験回路にサーボを追加）](/schematic/reflective_sensor_circuit_with_servo.pdf)
 
 ・ブレッドボードの回路にサーボモータを取り付けたイメージ
 ![application_w_servo](/image/test_circuit_w_servo.jpg)
